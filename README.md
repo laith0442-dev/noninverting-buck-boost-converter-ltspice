@@ -176,7 +176,7 @@ The converter's closed-loop rejection against severe supply line variations was 
 
 ![Dynamic Line Regulation](docs/images/line_regulation_transient.png)
 
-*Figure 2: Transient response under dynamic input voltage step ($20\text{ V} \to 8\text{ V}$ at $t = 250\text{ ms}$).*
+*Figure 2: Transient response under dynamic input voltage step.*
 
 #### Waveform Analysis:
 - **Startup ($0 - 50\text{ ms}$):** The converter starts up from $0\text{ V}$ with initial damping and settles cleanly to $12.0\text{ V}$ DC regulation within $50\text{ ms}$.
