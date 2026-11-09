@@ -1,0 +1,22 @@
+# LTspice Simulation Artifacts & Temporary Files
+*.raw
+*.op.raw
+*.fft.raw
+*.log
+*.net
+*.tmp
+*.bak
+*.tsv
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.swp
+*~
+
+# IDE and Editor Folders
+.vscode/
+.idea/

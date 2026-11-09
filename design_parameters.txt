@@ -1,0 +1,27 @@
+# Non-Inverting Buck-Boost Converter Design Parameters
+Output Voltage (Vout): 12.0 V
+Input Voltage Range (Vin): 8.0 V to 20.0 V
+Switching Frequency (fsw): 62.5 kHz
+Nominal Load Resistance (R): 9.4 Ohm
+Nominal Load Current (Iout): ~1.28 A
+Inductor Current Ripple Target: < 50 mA
+Output Capacitor Voltage Ripple Target: < 100 mV
+
+# Sized Passive Components
+Inductance (L1): 5.5 mH (Rser = 0.01 Ohm)
+Output Capacitance (C1): 220 uF (Rser = 0.1 Ohm)
+Bootstrap Capacitance (C2): 0.22 uF (KEMET C1825C224K5RAC)
+
+# Control & Feedback Components
+Voltage Reference (Vref1): 2.50 V
+Feedback Resistor Upper (R6): 1.9 kOhm
+Feedback Resistor Lower (R7): 500 Ohm (0.5 kOhm)
+PI Input Resistor (R8): 10.0 kOhm
+PI Feedback Resistor (R9): 6.0 kOhm
+PI Feedback Capacitor (C3): 2.21 uF
+PWM Ramp Generator (Vramp1): Sawtooth 0 to 5 V, Period = 16 us (62.5 kHz)
+MOSFET Driver: LTC4446 High Voltage High/Low Side Driver
+Gate Resistors: R4 = 5 Ohm (High-side TG), R5 = 5 Ohm (Low-side BG)
+Gate Pull-downs: R2 = 1 kOhm, R3 = 1 kOhm
+Power MOSFETs: IRFZ44N (55V, 49A, Rds(on) = 17.5 mOhm)
+Power Diodes: RB238T100NZ Schottky (100V, 40A)

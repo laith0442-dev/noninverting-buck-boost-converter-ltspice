@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this simulation model or design in your research, education, or projects, please cite it as below."
+authors:
+  - family-names: "Qawasmeh"
+    given-names: "Laith"
+title: "Closed-Loop Non-Inverting Buck-Boost Converter LTspice Simulation"
+version: 1.0.0
+date-released: 2026-11-09
+url: "https://github.com/laith0442-dev/noninverting-buck-boost-converter-ltspice"
+keywords:
+  - "power electronics"
+  - "buck-boost converter"
+  - "non-inverting buck-boost"
+  - "ltspice"
+  - "pi controller"
+  - "analog control"
+  - "ltc4446"
+  - "dc-dc converter"
