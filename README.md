@@ -261,32 +261,14 @@ The converter's transient stability and output impedance were validated under a 
 
 ---
 
-## Repository Structure
 
-```text
-noninverting-buck-boost-converter-ltspice/
-├── Noninverting_Buck_Boost_Converter_project_LTspice.asc   # Primary LTspice schematic file
-├── design_parameters.txt                                  # Sizing specifications and parameters
-├── docs/
-│   └── images/
-│       ├── circuit_schematic.png                          # Annotated LTspice schematic diagram
-│       ├── line_regulation_transient.png                  # Vin step response waveform (20V -> 8V)
-│       └── load_regulation_transient.png                  # Load current transient response waveform
-├── .gitignore                                             # LTspice simulation artifacts ignore rules
-├── LICENSE                                                # MIT Open-Source License
-├── CITATION.cff                                           # Citation Metadata
-├── CONTRIBUTING.md                                        # Contribution guidelines
-└── README.md                                              # Project documentation & analysis
-```
-
----
 
 ## Citation & License
 
 ### Author
 **Laith Qawasmeh**  
 *M.Sc. Electrical Engineering | Power Electronics | Embedded Systems | MATLAB | Python*  
-GitHub: [@laith0442-dev](https://github.com/laith0442-dev)
+GitHub: [@laith1299](https://github.com/laith1299)
 
 ### License
 This project is open-source hardware and software simulation distributed under the **[MIT License](LICENSE)**. Feel free to use, study, modify, and integrate it into academic research or industrial designs.
